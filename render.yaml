@@ -1,0 +1,31 @@
+services:
+  # Backend API Service
+  - type: web
+    name: ardhisasa-backend
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    rootDir: backend
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_ACCESS_SECRET
+        sync: false
+      - key: JWT_REFRESH_SECRET
+        sync: false
+      - key: JWT_ACCESS_EXPIRY
+        value: 15m
+      - key: JWT_REFRESH_EXPIRY
+        value: 7d
+      - key: FRONTEND_URL
+        sync: false
+      - key: CLOUDINARY_CLOUD_NAME
+        value: dnwencyhy
+      - key: CLOUDINARY_API_KEY
+        value: 667273916655687
+      - key: CLOUDINARY_API_SECRET
+        sync: false
