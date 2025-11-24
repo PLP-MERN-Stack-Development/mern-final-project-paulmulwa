@@ -1,0 +1,702 @@
+/* Services Page Modern Enhancements */
+
+/* Services Hero Modern */
+.services-hero.modern {
+  background: linear-gradient(135deg, rgba(33, 150, 243, 0.08) 0%, rgba(46, 125, 50, 0.08) 100%);
+  padding: 120px 0 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.services-hero.modern::before {
+  content: '';
+  position: absolute;
+  top: -40%;
+  left: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(33, 150, 243, 0.12) 0%, transparent 70%);
+  border-radius: 50%;
+  animation: float 10s ease-in-out infinite;
+}
+
+.services-hero-content.modern {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.services-hero .hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: white;
+  border: 2px solid #FF9800;
+  border-radius: 50px;
+  color: #FF9800;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+  animation: slideDown 0.6s ease-out;
+  box-shadow: 0 4px 12px rgba(255, 152, 0, 0.2);
+}
+
+.services-hero .page-title.modern {
+  font-size: 3.75rem;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  background: linear-gradient(135deg, #1976D2 0%, #2E7D32 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.services-hero .page-subtitle.modern {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: #555;
+  animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+/* Service Detail Sections Modern */
+.service-detail.modern {
+  padding: 80px 0;
+  position: relative;
+}
+
+.service-detail.modern.alt-bg {
+  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.service-content.modern {
+  max-width: 1000px;
+  margin: 0 auto;
+  animation: fadeInUp 0.8s ease-out both;
+}
+
+.section-badge.blue {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: rgba(33, 150, 243, 0.1);
+  border: 2px solid #2196F3;
+  border-radius: 50px;
+  color: #2196F3;
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-bottom: 24px;
+  animation: slideDown 0.5s ease-out;
+}
+
+.section-badge.green {
+  border-color: #2E7D32;
+  color: #2E7D32;
+  background: rgba(46, 125, 50, 0.1);
+}
+
+.section-badge.purple {
+  border-color: #9C27B0;
+  color: #9C27B0;
+  background: rgba(156, 39, 176, 0.1);
+}
+
+.section-badge.orange {
+  border-color: #FF9800;
+  color: #FF9800;
+  background: rgba(255, 152, 0, 0.1);
+}
+
+.section-badge.teal {
+  border-color: #00897B;
+  color: #00897B;
+  background: rgba(0, 137, 123, 0.1);
+}
+
+.service-icon-wrapper.modern {
+  width: 100px;
+  height: 100px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 32px;
+  background: white;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.service-icon-wrapper.modern.blue {
+  color: #2196F3;
+  border: 3px solid #2196F3;
+}
+
+.service-icon-wrapper.modern.green {
+  color: #2E7D32;
+  border: 3px solid #2E7D32;
+}
+
+.service-icon-wrapper.modern.purple {
+  color: #9C27B0;
+  border: 3px solid #9C27B0;
+}
+
+.service-icon-wrapper.modern.orange {
+  color: #FF9800;
+  border: 3px solid #FF9800;
+}
+
+.service-icon-wrapper.modern.teal {
+  color: #00897B;
+  border: 3px solid #00897B;
+}
+
+.service-icon-wrapper.modern:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+.service-title.modern {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 20px;
+  animation: fadeInUp 0.6s ease-out 0.2s both;
+}
+
+.service-intro.modern {
+  font-size: 1.15rem;
+  color: #666;
+  text-align: center;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto 50px;
+  animation: fadeInUp 0.6s ease-out 0.3s both;
+}
+
+/* Service Features Modern */
+.service-features.modern {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 50px;
+}
+
+.feature-item.modern {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  border: 2px solid #f0f0f0;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.6s ease-out both;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.feature-item.modern:nth-child(1) { animation-delay: 0.1s; }
+.feature-item.modern:nth-child(2) { animation-delay: 0.2s; }
+.feature-item.modern:nth-child(3) { animation-delay: 0.3s; }
+.feature-item.modern:nth-child(4) { animation-delay: 0.4s; }
+
+.feature-item.modern:hover {
+  transform: translateX(8px);
+  border-color: #2E7D32;
+  box-shadow: 0 8px 24px rgba(46, 125, 50, 0.15);
+}
+
+.feature-item.modern .feature-check {
+  color: #2E7D32;
+  font-size: 24px;
+  min-width: 24px;
+  margin-top: 2px;
+}
+
+.feature-item.modern h4 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.feature-item.modern p {
+  color: #666;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Transfer Workflow Modern */
+.transfer-workflow.modern {
+  margin: 60px 0;
+}
+
+.workflow-step.modern {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  border: 2px solid #f0f0f0;
+  margin-bottom: 24px;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.6s ease-out both;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.workflow-step.modern:nth-child(1) { animation-delay: 0.1s; }
+.workflow-step.modern:nth-child(2) { animation-delay: 0.2s; }
+.workflow-step.modern:nth-child(3) { animation-delay: 0.3s; }
+.workflow-step.modern:nth-child(4) { animation-delay: 0.4s; }
+.workflow-step.modern:nth-child(5) { animation-delay: 0.5s; }
+
+.workflow-step.modern:hover {
+  transform: translateX(12px);
+  border-color: #2196F3;
+  box-shadow: 0 8px 24px rgba(33, 150, 243, 0.15);
+}
+
+.step-number.modern {
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: white;
+  box-shadow: 0 4px 16px rgba(33, 150, 243, 0.3);
+  transition: all 0.3s ease;
+}
+
+.workflow-step.modern:hover .step-number.modern {
+  transform: scale(1.15) rotate(10deg);
+  box-shadow: 0 6px 20px rgba(33, 150, 243, 0.5);
+}
+
+.step-content.modern h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.step-content.modern p {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.step-detail.modern {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #2196F3;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 8px 12px;
+  background: rgba(33, 150, 243, 0.1);
+  border-radius: 8px;
+  display: inline-flex;
+}
+
+/* Transfer Features Modern */
+.transfer-features.modern {
+  margin-top: 50px;
+  padding: 40px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e8f5e9 100%);
+  border-radius: 16px;
+  animation: fadeInUp 0.6s ease-out 0.6s both;
+}
+
+.transfer-features.modern h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.features-grid.modern {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.feature-box.modern {
+  background: white;
+  padding: 24px 16px;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  border: 2px solid #e0e0e0;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.feature-box.modern:hover {
+  transform: translateY(-6px);
+  border-color: #2E7D32;
+  box-shadow: 0 8px 20px rgba(46, 125, 50, 0.15);
+}
+
+.feature-box.modern svg {
+  font-size: 28px;
+  color: #2E7D32;
+}
+
+.feature-box.modern span {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Title Deed Features Modern */
+.title-deed-features.modern {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 50px;
+  align-items: start;
+}
+
+.deed-preview.modern {
+  animation: fadeInUp 0.6s ease-out 0.4s both;
+}
+
+.deed-sample.modern {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  border: 3px solid #FF9800;
+  box-shadow: 0 8px 24px rgba(255, 152, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.deed-sample.modern:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 32px rgba(255, 152, 0, 0.3);
+}
+
+.deed-description.modern {
+  animation: fadeInUp 0.6s ease-out 0.5s both;
+}
+
+.deed-description.modern h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 24px;
+}
+
+.deed-list.modern {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.deed-list.modern li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding: 12px;
+  background: white;
+  border-radius: 8px;
+  border: 2px solid #f0f0f0;
+  transition: all 0.3s ease;
+}
+
+.deed-list.modern li:hover {
+  transform: translateX(8px);
+  border-color: #FF9800;
+  box-shadow: 0 4px 12px rgba(255, 152, 0, 0.15);
+}
+
+.deed-list.modern li svg {
+  color: #2E7D32;
+  font-size: 20px;
+  min-width: 20px;
+  margin-top: 2px;
+}
+
+/* Admin Tools Modern */
+.admin-tools.modern {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.admin-section.modern {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  border: 2px solid #f0f0f0;
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.6s ease-out both;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.admin-section.modern:nth-child(1) { animation-delay: 0.4s; }
+.admin-section.modern:nth-child(2) { animation-delay: 0.5s; }
+
+.admin-section.modern:hover {
+  transform: translateY(-8px);
+  border-color: #00897B;
+  box-shadow: 0 12px 32px rgba(0, 137, 123, 0.15);
+}
+
+.admin-section.modern h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tool-list.modern {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tool-item.modern {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.tool-item.modern:hover {
+  background: white;
+  border-color: #00897B;
+  transform: translateX(8px);
+}
+
+.tool-item.modern svg {
+  color: #00897B;
+  font-size: 24px;
+  min-width: 24px;
+  margin-top: 2px;
+}
+
+.tool-item.modern strong {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 6px;
+}
+
+.tool-item.modern p {
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Services CTA Modern */
+.services-cta.modern {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.services-cta.modern::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.cta-box.modern {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  animation: fadeInUp 0.8s ease-out both;
+}
+
+.cta-box.modern .section-badge {
+  border-color: white;
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.cta-box.modern h2 {
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.cta-box.modern p {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 40px;
+}
+
+.cta-buttons.modern {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cta-buttons.modern .btn.modern {
+  padding: 16px 32px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cta-buttons.modern .btn-primary.modern {
+  background: white;
+  color: #2E7D32;
+  border: 2px solid white;
+}
+
+.cta-buttons.modern .btn-primary.modern:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
+}
+
+.cta-buttons.modern .btn-secondary.modern {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.cta-buttons.modern .btn-secondary.modern:hover {
+  background: white;
+  color: #2E7D32;
+  transform: translateY(-4px);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .services-hero .page-title.modern {
+    font-size: 3rem;
+  }
+  
+  .service-features.modern {
+    grid-template-columns: 1fr;
+  }
+  
+  .features-grid.modern {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .title-deed-features.modern {
+    grid-template-columns: 1fr;
+  }
+  
+  .admin-tools.modern {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-hero.modern {
+    padding: 80px 0 60px;
+  }
+  
+  .services-hero .page-title.modern {
+    font-size: 2.25rem;
+  }
+  
+  .services-hero .page-subtitle.modern {
+    font-size: 1.1rem;
+  }
+  
+  .service-title.modern {
+    font-size: 2rem;
+  }
+  
+  .service-intro.modern {
+    font-size: 1rem;
+  }
+  
+  .service-detail.modern {
+    padding: 60px 0;
+  }
+  
+  .features-grid.modern {
+    grid-template-columns: 1fr;
+  }
+  
+  .cta-buttons.modern {
+    flex-direction: column;
+  }
+  
+  .cta-buttons.modern .btn.modern {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .cta-box.modern h2 {
+    font-size: 2rem;
+  }
+}
