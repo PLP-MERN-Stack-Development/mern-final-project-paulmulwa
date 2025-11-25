@@ -33,6 +33,9 @@ Ardhisasa Lite is a modern digital land registry platform that streamlines land 
 - 📂 **Document Management** - Upload and verify supporting documents
 - 📈 **Transfer History** - Complete audit trail for each parcel
 - 🌍 **Kenyan Region Structure** - Full county/subcounty hierarchy support
+- 🗺️ **Interactive Parcel Mapping** - GPS-enabled boundary visualization
+- 📊 **Analytics Dashboards** - County and national-level insights
+- 🛰️ **Satellite Imagery** - Real-world parcel visualization
 
 ## 🛠️ Tech Stack
 
@@ -313,17 +316,87 @@ For issues or questions, please open an issue in the repository.
 
 ## 🗺️ Roadmap
 
-### Future Enhancements
+### Next-Generation Features (Planned)
+
+#### 🚶 Interactive Parcel Boundary Walk Mode (AR Mode)
+- [ ] GPS + Compass + Camera integration
+- [ ] AR markers showing boundary corner points
+- [ ] Real-time distance guidance ("2m from southwest corner")
+- [ ] Physical walk-through for parcel verification
+- [ ] Accuracy tracking and feedback
+
+#### 🛰️ Advanced Satellite Parcel Visualization
+- [ ] Google Satellite layer integration
+- [ ] Mapbox Satellite support
+- [ ] MapLibre rendering engine
+- [ ] Real-world land imagery overlay
+- [ ] Zoom and pan controls
+
+#### 🏘️ Neighbor Parcel & Ownership Context
+- [ ] Display adjacent parcel boundaries
+- [ ] "View Parcel History" feature
+- [ ] "Show Neighbors" functionality
+- [ ] Ownership transparency tools
+- [ ] Dispute resolution context
+
+#### 📴 Offline Parcel Access
+- [ ] Cache parcel geometry locally
+- [ ] GPS + polygon works without internet
+- [ ] Offline boundary verification
+- [ ] Sync when connection restored
+- [ ] Ideal for rural/remote areas
+
+#### 📐 Parcel Area & Distance Calculator
+- [ ] Tap corners to measure area
+- [ ] Calculate perimeter automatically
+- [ ] Side length measurements
+- [ ] Corner coordinate display
+- [ ] Export measurements to PDF
+
+#### 🤖 AI Boundary Correction
+- [ ] Upload survey maps (RIM/mutation forms)
+- [ ] Auto-detect parcel boundaries
+- [ ] Image-to-GeoJSON conversion
+- [ ] Coordinate extraction from images
+- [ ] Validation and accuracy scoring
+
+#### ⚠️ Land Dispute Highlighting
+- [ ] Detect overlapping parcels
+- [ ] Mark ambiguous coordinates
+- [ ] Admin-flagged conflict boundaries
+- [ ] Fraud prevention indicators
+- [ ] Dispute resolution workflow
+
+#### 🏛️ County Dashboard (Admin)
+- [ ] Heatmaps of land transfers
+- [ ] Parcel activity tracking
+- [ ] New registration logs
+- [ ] Pending approvals queue
+- [ ] County-level analytics
+
+#### 🇰🇪 National Dashboard (NLC)
+- [ ] National parcel map view
+- [ ] County performance analytics
+- [ ] Land-use pattern insights
+- [ ] Automated fraud alerts
+- [ ] Cross-county transfer monitoring
+
+#### 📡 Location Accuracy Indicator
+- [ ] Show GPS accuracy radius
+- [ ] Signal strength indicator
+- [ ] "Move to open sky" tips
+- [ ] Precision improvement suggestions
+- [ ] Multi-GNSS support (GPS, GLONASS, Galileo)
+
+### Additional Enhancements
 - [ ] Mobile application (React Native)
-- [ ] Advanced analytics dashboard
-- [ ] GIS integration for mapping
 - [ ] Payment gateway integration
 - [ ] Email notifications
-- [ ] Document OCR for verification
 - [ ] Multi-language support (Swahili)
 - [ ] Export reports (PDF)
 - [ ] Advanced search filters
 - [ ] Parcel valuation estimates
+- [ ] Blockchain integration for immutability
 
 ## 📸 Screenshots
 
